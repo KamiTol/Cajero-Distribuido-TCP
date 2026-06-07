@@ -1,0 +1,12 @@
+{
+  "name": "cajero",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "client": "node client/index.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
