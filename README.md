@@ -14,6 +14,14 @@ npm start
 npm run client
 ```
 
+## Ejecutar cliente Java
+
+```bash
+cd java-client
+javac -d out src/main/java/com/cajero/ClienteTcp.java
+java -cp out com.cajero.ClienteTcp
+```
+
 ## Flujo
 
 1. El cliente pide la tarjeta una sola vez.
@@ -24,3 +32,4 @@ npm run client
 ## Probar con dos clientes
 
 Abre dos terminales o dos VMs y ejecuta `npm run client` en ambas contra el mismo servidor.
+Si quieres probar interoperabilidad entre lenguajes, usa el cliente Java en una de las VMs con los comandos de arriba.
